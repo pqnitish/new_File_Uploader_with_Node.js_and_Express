@@ -1,0 +1,28 @@
+{
+  "name": "new_file_uploader_with_node.js_and_express",
+  "version": "1.0.0",
+  "description": "Topics Covered: Express.js Server Setup File Upload Handling Working with Multer Middleware Basic Frontend Form Submission",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pqnitish/new_File_Uploader_with_Node.js_and_Express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pqnitish/new_File_Uploader_with_Node.js_and_Express/issues"
+  },
+  "homepage": "https://github.com/pqnitish/new_File_Uploader_with_Node.js_and_Express#readme",
+  "dependencies": {
+    "cloudinary": "^2.5.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7"
+  }
+}
